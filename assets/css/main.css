@@ -1718,9 +1718,10 @@
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/bg01.png"), url("../../images/header.jpg");
+		/*background: url("images/bg01.png"), url("../../images/header.jpg");*/
+        background-color: #000000;
 		background-position: top left, center center;
-		background-size: auto, cover;
+		background-size: cover;
 	}
 
 	#main-wrapper {
@@ -1846,7 +1847,7 @@
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 3em 0;
+				padding: 3em;
 			}
 
 			.wrapper {
@@ -1892,19 +1893,20 @@
 		/* Nav */
 
 			#nav {
-				position: absolute;
-				right: 2em;
+				position:absolute;
 				top: 0;
 				line-height: 5.5em;
 			}
 
 				#nav > ul > li {
 					float: left;
-					padding: 0 0.8em 0 0.8em;
+					padding: 0 1.7em 0 1.5em;
+                    text-align: center;
 				}
 
 					#nav > ul > li > a, #nav > ul > li > span {
 						color: #fff;
+                        text-align: center;
 						text-decoration: none;
 						text-transform: uppercase;
 						font-weight: 800;
