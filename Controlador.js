@@ -26,3 +26,7 @@ $("#history").click( function(){
     //$("#main-wrapper").unload();
     $("#main-wrapper").replaceWith($("#main-wrapper").load("historia.html"));
 });
+
+$(document).ready(function(){
+   $("#main-wrapper").replaceWith($("#main-wrapper").load("parrilla.html")); 
+});
